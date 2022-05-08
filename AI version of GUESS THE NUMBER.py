@@ -26,7 +26,7 @@ def instruction():
           'Then the pc will tell you a number.\n'
           'If the number is lower than ur number type "higher",otherwise type "lower"\n'
           'If the number is egal as yours ,type "yes".')
-    mainmenu = input('Press enter to go to proceed the main menu: ')
+    mainmenu = input('Press enter to proceed to the main menu: ')
 while True:
     hilp = input('For instruction type "help".To start the game type "start".To exit type "quit": ')
     if hilp == 'help':
